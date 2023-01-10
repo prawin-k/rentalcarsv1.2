@@ -1,1 +1,2 @@
 From Ubuntu
+RUN install
