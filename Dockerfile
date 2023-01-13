@@ -1,2 +1,0 @@
-From Ubuntu
-RUN install
