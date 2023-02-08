@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: back-end
-          image: 617302863543.dkr.ecr.us-east-1.amazonaws.com/rentalcars:latest
+          image: 267977387285.dkr.ecr.us-east-1.amazonaws.com/rentalcars:latest
           ports:
             - containerPort: 8080
