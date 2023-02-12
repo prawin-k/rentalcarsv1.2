@@ -7,10 +7,11 @@
 awscreds = 'ecr:us-east-1:aws-creds'
 
 // imagename for docker image tag name
-imagename = "267977387285.dkr.ecr.us-east-1.amazonaws.com/rentalcars"
+imagename = "069410616286.dkr.ecr.us-east-1.amazonaws.com/rentlacars"
+
 
 //This ecrRegistry is to push the docker image from jenkins to ECR
-ecrRegistry = "https://267977387285.dkr.ecr.us-east-1.amazonaws.com"
+ecrRegistry = "https://069410616286.dkr.ecr.us-east-1.amazonaws.com"
 
 node(){
 
