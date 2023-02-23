@@ -4,14 +4,14 @@
 //ecr: this is aws service name
 //us-east-1: this the region name where ecr registry created
 //aws-creds: this is the credentials id which create in jenkins
-awscreds = 'ecr:us-east-1:aws-creds'
+awscreds = 'ecr:eu-west-2:aws-creds'
 
 // imagename for docker image tag name
-imagename = "069410616286.dkr.ecr.us-east-1.amazonaws.com/rentlacars"
+imagename = "069410616286.dkr.ecr.eu-west-2.amazonaws.com/rentalcars"
 
 
 //This ecrRegistry is to push the docker image from jenkins to ECR
-ecrRegistry = "https://069410616286.dkr.ecr.us-east-1.amazonaws.com"
+ecrRegistry = "https://069410616286.dkr.ecr.eu-west-2.amazonaws.com"
 
 node(){
 
